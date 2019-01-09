@@ -172,6 +172,7 @@ class NotificationScheduler {
                     .setContentTitle(title)
                     .setContentText(content)
                     .setAutoCancel(true)
+                    .setStyle(new Notification.BigTextStyle().bigText(content))
                     .setSmallIcon(R.mipmap.ic_launcher_round)
                     .setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION))
                     .setContentIntent(pendingIntent)
@@ -200,6 +201,7 @@ class NotificationScheduler {
                     .setContentTitle(title)
                     .setContentText(content)
                     .setAutoCancel(true)
+                    .setStyle(new Notification.BigTextStyle().bigText(content))
                     .setSmallIcon(R.mipmap.ic_launcher_round)
                     .setContentIntent(pendingIntent)
                     .build();

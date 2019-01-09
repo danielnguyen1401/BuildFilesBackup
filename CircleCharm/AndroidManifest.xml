@@ -11,6 +11,7 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
     <application
+        android:name="android.support.multidex.MultiDexApplication"
         android:name=".MainApplication"
         android:banner="@drawable/app_banner"
         android:icon="@mipmap/app_icon"
@@ -119,6 +120,10 @@
 
         <activity android:name="com.applovin.adview.AppLovinInterstitialActivity" />
         <activity android:name="com.applovin.adview.AppLovinConfirmationActivity" />
+         <!-- <meta-data android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/> -->
         <!--For Push Noti-->
         <service android:name="StickyService"/>
         <service
