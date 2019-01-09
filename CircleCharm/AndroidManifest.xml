@@ -109,6 +109,16 @@
         <meta-data
             android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
             android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2507380763226650~2817838483" />
+        <!--AppLovin SDK Key-->
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="AFnm0QSLh8Xyt7yzuyD1hoB8L0dFN2OrEBTT81F9hi8-J7JiaF_f67k8vhsJo_aekXTz0GqIeOqxXCWK8s7Tlb" />
+
+        <activity android:name="com.applovin.adview.AppLovinInterstitialActivity" />
+        <activity android:name="com.applovin.adview.AppLovinConfirmationActivity" />
         <!--For Push Noti-->
         <service android:name="StickyService"/>
         <service
