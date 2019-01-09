@@ -1,4 +1,4 @@
-package com.nambv.notification_interval;
+package com.xgame.donutpuzzlee;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -19,9 +19,9 @@ import com.firebase.jobdispatcher.Trigger;
 import java.util.Calendar;
 import java.util.Date;
 
-import static com.nambv.notification_interval.MainApplication.TAG_14_DAYS;
-import static com.nambv.notification_interval.MainApplication.TAG_3_DAYS;
-import static com.nambv.notification_interval.MainApplication.TAG_7_DAYS;
+import static com.xgame.donutpuzzlee.MainApplication.TAG_14_DAYS;
+import static com.xgame.donutpuzzlee.MainApplication.TAG_3_DAYS;
+import static com.xgame.donutpuzzlee.MainApplication.TAG_7_DAYS;
 
 @SuppressWarnings("deprecation")
 class NotificationScheduler {
@@ -173,7 +173,7 @@ class NotificationScheduler {
                     .setContentText(content)
                     .setAutoCancel(true)
                     .setStyle(new Notification.BigTextStyle().bigText(content))
-                    .setSmallIcon(R.mipmap.ic_launcher_round)
+                    .setSmallIcon(R.mipmap.app_icon_round)
                     .setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION))
                     .setContentIntent(pendingIntent)
                     .build();
@@ -202,7 +202,7 @@ class NotificationScheduler {
                     .setContentText(content)
                     .setAutoCancel(true)
                     .setStyle(new Notification.BigTextStyle().bigText(content))
-                    .setSmallIcon(R.mipmap.ic_launcher_round)
+                    .setSmallIcon(R.mipmap.app_icon_round)
                     .setContentIntent(pendingIntent)
                     .build();
         }

@@ -1,4 +1,4 @@
-package com.nambv.notification_interval;
+package com.xgame.donutpuzzlee;
 
 import java.util.ArrayList;
 import java.util.Calendar;

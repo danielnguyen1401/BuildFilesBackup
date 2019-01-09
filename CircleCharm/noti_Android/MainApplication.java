@@ -1,4 +1,4 @@
-package com.nambv.notification_interval;
+package com.xgame.donutpuzzlee;
 
 import android.app.Activity;
 import android.app.Application;
